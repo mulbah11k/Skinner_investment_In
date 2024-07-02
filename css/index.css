@@ -1,11 +1,16 @@
-/*
-Template Name: Carporate
-File: Layout CSS
-Author: TemplatesOnWeb
-Author URI: https://www.templateonweb.com/
-Licence: <a href="https://www.templateonweb.com/license">Website Template Licence</a>
-*/
-/*********************center_home****************/
+
+* {
+    box-sizing: border-box;
+        
+    margin: 0;
+        
+    padding: 0;
+    }
+    body, html {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
 .center_1 h6{
 letter-spacing: 0.8px; 
  }
@@ -19,6 +24,11 @@ padding-bottom:80px;
 /*********************center_home_end****************/
 
 /*********************manage****************/
+.rounded-circle{
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+}
 .manage_1i{
 background-color: rgba(13, 20, 30, 0.47);
 border-style: solid;

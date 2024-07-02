@@ -6,6 +6,14 @@ Author URI: https://www.templateonweb.com/
 Licence: <a href="https://www.templateonweb.com/license">Website Template Licence</a>
 */
 /*********************blog****************/
+* {
+  box-sizing: border-box;
+      
+  margin: 0;
+      
+  padding: 0;
+  }
+
 #blog_pg a:hover{
 color: #FF6A3F; 
  }

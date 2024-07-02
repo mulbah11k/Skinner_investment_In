@@ -5,6 +5,16 @@ Author: TemplatesOnWeb
 Author URI: https://www.templateonweb.com/
 Licence: <a href="https://www.templateonweb.com/license">Website Template Licence</a>
 */
+* {
+  box-sizing: border-box;
+      
+  margin: 0;
+      
+  padding: 0;
+  }
+  *, *::before, *::after{
+    box-sizing: border-box;
+  }
 body{
 font-family: 'Poppins', sans-serif;
 -webkit-font-smoothing: antialiased;
@@ -245,7 +255,7 @@ text-transform:uppercase;
 font-weight:bold;
  }
 #header .nav-link{
-padding: 15px 15px 15px 15px;
+padding: 10px 15px 15px 15px;
 color:#fff;
 font-weight:600;
  }
@@ -567,7 +577,7 @@ margin-top:15px;
 }
 
 .faq_1r{
-background-image: url(../img/27.jpg);
+background-image: url(../img/contact.jpg);
 background-position: center;
  }
 .faq_1rm {
@@ -617,7 +627,6 @@ border-radius: 60px;
 .subs_1r ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
 color:#999;
 }
-
 .subs_1{
 box-shadow: 0px 0px 37px 0px rgb(0 0 0 / 9%);
 transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
